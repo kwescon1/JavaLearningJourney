@@ -3,7 +3,7 @@ package interfaces;
 public interface ElectronicInterface {
 
     // constant variable
-    public static final String LED = "LED";
+    String LED = "LED";
 
     // Abstract method
     int getElectricityUse();
