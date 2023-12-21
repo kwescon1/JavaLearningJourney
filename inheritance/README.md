@@ -1,6 +1,3 @@
-My apologies for the oversight. Thank you for providing the actual code for the "ArmoredCar" class. Here's the revised README section with the corrected code for the "ArmoredCar" class:
-
-````markdown
 # Inheritance in Java
 
 In Java, inheritance is a fundamental concept of Object-Oriented Programming (OOP) that allows you to create new classes by inheriting properties and behaviors from existing classes. This promotes code reuse, reduces redundancy, and enhances the organization of your code.
@@ -48,7 +45,6 @@ public class ArmoredCar extends Car implements Floatable, Flyable {
     }
 }
 ```
-````
 
 In this example, the "ArmoredCar" class inherits common properties from "Car," such as the number of wheels and the car model. Additionally, "ArmoredCar" introduces its own attributes and methods, like the number of bulletproof windows, the ability to start remotely, and the implementation of the "Floatable" and "Flyable" interfaces.
 
@@ -59,7 +55,3 @@ When inheriting, the variable and method names in the subclass can be the same a
 ## Conclusion
 
 Inheritance in Java plays a crucial role in creating organized and modular code structures. It empowers developers to reuse existing code, extend functionality, and efficiently build new classes by inheriting from base classes. This inheritance mechanism is akin to the way an automobile manufacturer designs a range of cars based on a shared platform.
-
-```
-
-```
