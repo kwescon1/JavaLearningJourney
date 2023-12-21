@@ -1,0 +1,28 @@
+// A concrete class is a class we can instantiate (using the new keyword)
+
+// examples of concrete classes in JDK are HashMap, HashSet, ArrayList and LinkedList
+
+// In java, we can achieve abstractions using interfaces and abstract classes
+
+// an interface is a blue print for a class. In other words, it is a collection of unimplemented method signatures 
+
+interface Driveable {
+    void honk();
+    public int speed(int value);
+    public void drive();
+}
+
+// An abstract class is a class that has unimplemented methods, though it can actually have both:
+
+public abstract class Vehicle {
+    public abstract String honk();
+
+    public String drive() {
+        return "zoom";
+    }
+}
+
+// In Java, an interface is an abstract type that contains a collection of methods and constant variables. It is one of the core concepts in Java and is used to achieve abstraction, polymorphism and multiple inheritances.
+
+
+// In traditional object-oriented programming, interfaces were indeed used primarily for declaring a contract, specifying methods that must be implemented by any class that implements the interface, without providing any actual method implementations. This is the way interfaces are generally used in languages like PHP. However, Java has evolved over time, and starting from Java 8, interfaces can contain more than just abstract method declarations and constants. They can also include implemented methods in the form of static and default methods.
